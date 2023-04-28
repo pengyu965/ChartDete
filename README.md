@@ -4,7 +4,7 @@ The github repository for ICDAR 2023 paper 'CACHED: Context-Aware Chart Element 
 
 - Updated PMC Dataset (COCO format) is available from [HERE](), please unzip it to './data/' folder.
 - Models can be accessed in [HERE](), please download them and put them to each folder under 'work_dirs/' accordingly.
-- Model Config files are under 'work_dirs/'. 
+- Model Config files are under 'configs/'. 
 
 
 ## Introduction

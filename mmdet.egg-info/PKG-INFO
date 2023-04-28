@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: mmdet
+Version: 2.28.1
+Summary: OpenMMLab Detection Toolbox and Benchmark
+Home-page: https://github.com/open-mmlab/mmdetection
+Author: MMDetection Contributors
+Author-email: openmmlab@gmail.com
+License: Apache License 2.0
+Keywords: computer vision,object detection
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: build
+Provides-Extra: optional
+Provides-Extra: mim
+License-File: LICENSE
+
+# CACHED: Context-Aware Chart Element Detection
+---
+The code and dataset for ICDAR 2023 paper 'CACHED: Context-Aware Chart Element Detection'.
+
+## Getting started
+
+This code is based on MMdetection Framework, please refer to MMDetection Official [Website](https://github.com/open-mmlab/mmdetection) for detailed installation. The following is brief environment and installation:
+
+Pytorch 1.13.1 and CUDA 11.7 are used during building and testing.
+
+Create Conda Environment:
+```bash
+conda create -n ChartDete python=3.8
+conda activate ChartDete
+```
+
+Make sure CUDA 11.7 with correct cudnn version is installed in your environment, then install pytorch 1.13.1:
+```bash
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+```
+
+Install mmcv:
+```bash
+pip install -U openmim
+mim install mmcv-full
+```
+
+The newest mmdetection has replaced the mmcv-full with mmcv 2.0, but it would raise compatibale issue for our code, therefore, we use mmcv-full here.
+
+Install MMDetection:
+```
+git clone https://github.com/pengyu965/ChartDete
+cd ChartDete
+pip install -v -e .
+``

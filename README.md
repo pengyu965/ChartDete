@@ -125,4 +125,5 @@ model.show_result(img, result, out_file='./sample_result.jpg')
 ```
 
 Example detection result:
+
 ![demo result](sample_result.jpg "Title")

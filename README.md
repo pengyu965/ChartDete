@@ -1,7 +1,7 @@
 CACHED: Context-Aware Chart Element Detection
 ===
 
-The github repository for ICDAR 2023 paper 'CACHED: Context-Aware Chart Element Detection'. The code is based on MMDetection Framework. The [Link]() to our paper.
+The github repository for ICDAR 2023 paper 'CACHED: Context-Aware Chart Element Detection'. The code is based on MMDetection Framework. The [<u>[Link]</u>]() to our paper.
 
 - Updated PMC Dataset (COCO format) is available from [HERE](https://drive.google.com/file/d/16KxTBcX1N8VAKIwIoRPZprPHTr84Hsdf/view?usp=share_link), please unzip it to 'data/' folder.
 - Models can be accessed in [HERE](https://drive.google.com/file/d/1n9UtHgfOA6H8cxp4Y44fG7OdXbVJzMnJ/view?usp=share_link), please download them and unzip them to 'work_dirs/' folder.
@@ -32,9 +32,9 @@ Here we attached the screenshots of table in our paper for your references:
 
 **Note:** The models can be downloaded [HERE](https://drive.google.com/file/d/1n9UtHgfOA6H8cxp4Y44fG7OdXbVJzMnJ/view?usp=share_link), which include:
 - DETR
-- ResNet-101 Faster-RCNN
-- ResNet-101 Cascade-RCNN
-- SwinT-FPN Cascade-RCNN
+- ResNeXt-101 Faster-RCNN
+- ResNeXt-101 Cascade-RCNN
+- Swin-Transformer Cascade-RCNN
 - Our methods
 - Our methods (bar chart detection)
 
@@ -46,7 +46,7 @@ Download the data from [HERE](https://drive.google.com/file/d/16KxTBcX1N8VAKIwIo
 ```
 |--data/
     |--pmc_2022/
-        |--pmc_coco/      ## Converted COCO format with updated category
+        |--pmc_coco/            # Converted COCO format with updated category
             |--element_detection/
                 |--train/
                 |--val/                   ## Image files
@@ -58,9 +58,9 @@ Download the data from [HERE](https://drive.google.com/file/d/16KxTBcX1N8VAKIwIo
                 |--bar_train.json 
                 |--bar_images/            ## Similarly to above
                 |--...
-        |--train_original/
-            |--...                        ## Those are original ICPR 2022
-        |--test_original/                 ## chart competition dataset
+        |--train_original/      # ↓ Original ICPR 2022 chart competition dataset
+            |--...              
+        |--test_original/       
             |--...                        
 ```
 The **chart element category refinement code and coco converter** can be found under "./pmc2coco_coverter/" folder.

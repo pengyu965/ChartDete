@@ -1,10 +1,15 @@
 # CACHED: Context-Aware Chart Element Detection
 
-The github repository for ICDAR 2023 paper 'CACHED: Context-Aware Chart Element Detection'. The code is based on MMDetection Framework
+The github repository for ICDAR 2023 paper 'CACHED: Context-Aware Chart Element Detection'. The code is based on MMDetection Framework. The [Link]() to our paper.
 
-- Updated PMC Dataset (COCO format) is available from [HERE](), please unzip it to 'data/' folder.
-- Models can be accessed in [HERE](), please download them and unzip them to 'work_dirs/' folder.
+- Updated PMC Dataset (COCO format) is available from [HERE](https://drive.google.com/file/d/16KxTBcX1N8VAKIwIoRPZprPHTr84Hsdf/view?usp=share_link), please unzip it to 'data/' folder.
+- Models can be accessed in [HERE](https://drive.google.com/file/d/1n9UtHgfOA6H8cxp4Y44fG7OdXbVJzMnJ/view?usp=share_link), please download them and unzip them to 'work_dirs/' folder.
 - Model Config files are under 'configs/'. 
+
+<!-- **If you would like to cite our work:**
+```latex
+
+``` -->
 
 
 ## Introduction
@@ -24,7 +29,7 @@ Here we attached the screenshots of table in our paper for your references:
 ![COCO Evaluation](./docs/paper_doc/coco_result.png "COCO Evaluation")
 ![PMC Bar Evaluation](./docs/paper_doc/extendedbar_result.png "PMC Bar Evaluation")
 
-**Note:** The models can be downloaded [HERE](), which include:
+**Note:** The models can be downloaded [HERE](https://drive.google.com/file/d/1n9UtHgfOA6H8cxp4Y44fG7OdXbVJzMnJ/view?usp=share_link), which include:
 - DETR
 - ResNet-101 Faster-RCNN
 - ResNet-101 Cascade-RCNN
@@ -33,12 +38,10 @@ Here we attached the screenshots of table in our paper for your references:
 - Our methods (bar chart detection)
 
 
-
-
 ## Updated PMC dataset
 We analyze and refine the chart element categorization. Totally 18 classes of chart element are summarized. We updated the PMC chart dataset from ICPR 2022 Chart Competition according to the new category and convert them to COCO format. 
 
-Download the data from [HERE](), and unzip them to the './data/' folder.
+Download the data from [HERE](https://drive.google.com/file/d/16KxTBcX1N8VAKIwIoRPZprPHTr84Hsdf/view?usp=share_link), and unzip them to the './data/' folder.
 ```
 |--data/
     |--pmc_2022/

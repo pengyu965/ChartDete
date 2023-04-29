@@ -124,5 +124,5 @@ model.show_result(img, result)
 model.show_result(img, result, out_file='./sample_result.jpg')
 ```
 
-The output image:
+Example detection result:
 ![demo result](sample_result.jpg "Title")

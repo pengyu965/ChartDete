@@ -7,10 +7,26 @@ The github repository for ICDAR 2023 paper 'CACHED: Context-Aware Chart Element 
 - Models can be accessed in [HERE](https://drive.google.com/file/d/1n9UtHgfOA6H8cxp4Y44fG7OdXbVJzMnJ/view?usp=share_link), please download them and unzip them to 'work_dirs/' folder.
 - Model Config files are under 'configs/'. 
 
-<!-- **If you would like to cite our work:**
+**cite our work by:**
 ```latex
-
-``` -->
+@InProceedings{10.1007/978-3-031-41676-7_13,
+    author="Yan, Pengyu
+    and Ahmed, Saleem
+    and Doermann, David",
+    editor="Fink, Gernot A.
+    and Jain, Rajiv
+    and Kise, Koichi
+    and Zanibbi, Richard",
+    title="Context-Aware Chart Element Detection",
+    booktitle="Document Analysis and Recognition - ICDAR 2023",
+    year="2023",
+    publisher="Springer Nature Switzerland",
+    address="Cham",
+    pages="218--233",
+    abstract="As a prerequisite of chart data extraction, the accurate detection of chart basic elements is essential and mandatory. In contrast to object detection in the general image domain, chart element detection relies heavily on context information as charts are highly structured data visualization formats. To address this, we propose a novel method CACHED, which stands for Context-Aware Chart Element Detection, by integrating a local-global context fusion module consisting of visual context enhancement and positional context encoding with the Cascade R-CNN framework. To improve the generalization of our method for broader applicability, we refine the existing chart element categorization and standardized 18 classes for chart basic elements, excluding plot elements. Our CACHED method, with the updated category of chart elements, achieves state-of-the-art performance in our experiments, underscoring the importance of context in chart element detection. Extending our method to the bar plot detection task, we obtain the best result on the PMC test dataset. Our code and model are available at https://github.com/pengyu965/ChartDete.",
+    isbn="978-3-031-41676-7"
+}
+```
 
 
 ## Introduction

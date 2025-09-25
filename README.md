@@ -3,8 +3,8 @@ CACHED: Context-Aware Chart Element Detection
 
 The github repository for ICDAR 2023 paper 'CACHED: Context-Aware Chart Element Detection'. The code is based on MMDetection Framework. The [<u>[Link]</u>](https://link.springer.com/chapter/10.1007/978-3-031-41676-7_13) to our paper, alternative option [<u>[ArXiv]</u>](https://arxiv.org/abs/2305.04151)
 
-- Updated PMC Dataset (COCO format) is available from [HERE](https://drive.google.com/file/d/16KxTBcX1N8VAKIwIoRPZprPHTr84Hsdf/view?usp=share_link), please unzip it to 'data/' folder.
-- Models can be accessed in [HERE](https://drive.google.com/file/d/1n9UtHgfOA6H8cxp4Y44fG7OdXbVJzMnJ/view?usp=share_link), please download them and unzip them to 'work_dirs/' folder.
+- Updated PMC Dataset (COCO format) is available from [HERE](https://drive.google.com/file/d/1YZmRy9TcaOJ6tA8DLeG0sXhSjwqqAw_h/view?usp=sharing), please unzip it to 'data/' folder.
+- Models can be accessed in [HERE](https://drive.google.com/file/d/1htEEzRVE9Qlppz8ZgyEPJ3OI1HHY6gDS/view?usp=sharing), please download them and unzip them to 'work_dirs/' folder.
 - Model Config files are under 'configs/'. 
 
 **cite our work by:**
